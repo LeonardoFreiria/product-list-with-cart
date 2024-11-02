@@ -4,3 +4,9 @@
   font-weight: 700;
   color: hsl(14, 65%, 9%);
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 45px;
+}
