@@ -5,6 +5,23 @@
   color: hsl(14, 65%, 9%);
 }
 
+  .cart-button {
+    display: flex;
+    background-color: white;
+    transform: translateY(-25px);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsl(14, 25%, 72%);
+    color: hsl(14, 65%, 9%);
+    width: fit-content;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 0.6rem 1.3rem 0.6rem 1.3rem;
+    align-self: center;
+    .shop-cart-icon {
+      padding-right: 0.5rem;
+    }
+  }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
