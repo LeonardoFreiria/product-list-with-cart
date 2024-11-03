@@ -26,9 +26,12 @@
       padding-right: 0.5rem;
     }
   }
+}
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  margin-left: 4rem;
+  grid-template-columns: repeat(3, min-content);
   gap: 45px;
 }
 
