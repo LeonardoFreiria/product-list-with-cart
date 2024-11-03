@@ -5,6 +5,10 @@
   color: hsl(14, 65%, 9%);
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+
   .cart-button {
     display: flex;
     background-color: white;
