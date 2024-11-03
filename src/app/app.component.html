@@ -5,7 +5,7 @@
     <figure>
       <img class="dessert-image" [ngSrc]="dessert.image.desktop" priority width="502" height="480"  [alt]="dessert.name">
       <figcaption>{{dessert.category}}</figcaption>
-      <figcaption>{{dessert.name}}</figcaption>
+      <figcaption class="dessert-name">{{dessert.name}}</figcaption>
       <figcaption>${{dessert.price}}</figcaption>
     </figure>
   }
